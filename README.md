@@ -42,3 +42,22 @@
 - Em azul, eu tive que cortar um pedaço da String do JSON, para que ela fosse compatível com o Jackson, a String tem que começar com "[" e terminar com "]", simbolizando uma lista.
 
 - Em verde a real utilização do Jackson, fazendo o parse para Objetos Java.
+
+### 3° Terceiro passo:
+- Depois de conseguir uma lista de Objetos do tipo Movie, parseados do JSON consumido, eu decidi salvar no banco de dados apenas os filmes que tem seu **ano** maior ou igual à 2020, filmes mais atuais.
+- Tive que mudar a classe Movie para se tornar uma **Entidade da JPA** e realizar as configurações do banco no application.properties, além de adicionar novas dependências ao projeto
+- Banco de dados escolhido foi o H2, em memória para uma maior praticidade.
+- Também tive que criar um Repository para Movie, com a ajuda do Spring-Data-JPA os métodos de CRUD e mais alguns já estão prontos.
+
+![movie](https://user-images.githubusercontent.com/104053775/206081264-b3f2059c-3bf0-4b5c-a68a-4a197039bf96.png)
+- Toda vez que a aplicação é reiniciada, o banco H2 também é reiniciado.
+
+![h2](https://user-images.githubusercontent.com/104053775/206081504-b8faaea8-d2bd-47fd-92fd-2358b1a9c0ae.png)
+
+![repo](https://user-images.githubusercontent.com/104053775/206082532-030921f6-6dc5-41ab-b9c1-a08f48f371c3.png)
+
+- Criei uma novo Controller para fazer essa personalização das páginas, e salvar apenas alguns Movies no banco.
+- Após feito isso a lista completa do banco de dados é enviada até a página HTML alvo, e com ajuda do engine do **Thymeleaf** é possível fazer a interação com objetos Java.
+
+![controller](https://user-images.githubusercontent.com/104053775/206082542-53fe2c30-f6c9-4a02-ac0b-e1fef3d67581.png)
+
