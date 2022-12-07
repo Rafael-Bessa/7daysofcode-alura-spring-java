@@ -79,5 +79,8 @@
 <br>
 ![final2](https://user-images.githubusercontent.com/104053775/206094819-a3006157-3628-480f-bb17-28eaa26b8045.png)
 
+### Espero ter colaborado de alguma forma
 
+- Me adicione no LinkedIn
 
+<a href="https://www.linkedin.com/in/rafaelmbessa/"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" width="150" height ="150"></a>
