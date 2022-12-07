@@ -81,6 +81,10 @@
 
 ### Espero ter colaborado de alguma forma
 
+- Links relacionados: 
+- https://7daysofcode.io/matricula/spring
+- https://imdb-api.com/
+
 - Me adicione no LinkedIn
 
 <a href="https://www.linkedin.com/in/rafaelmbessa/"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" width="150" height ="150"></a>
